@@ -1,5 +1,5 @@
 # Is Node?
-Detecs if the current process is a node application or not.
+Detects if the current process is a node application or not.
 
 ## Install
 `$ npm install is-node`
