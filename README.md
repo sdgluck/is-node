@@ -2,7 +2,13 @@
 Detects if the current process is a node application or not.
 
 ## Install
-`$ npm install is-node-fn`
+
+```sh
+npm install is-node-fn
+```
+```sh
+yarn add is-node-fn
+```
 
 ## Usage
 ```javascript
