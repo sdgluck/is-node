@@ -1,24 +1,28 @@
 {
-  "name": "is-node",
-  "version": "1.0.2",
+  "name": "is-node-fn",
+  "version": "1.0.0",
   "description": "Detect if current process is a node application or not.",
-  "author": {
+  "authors": [{
     "name": "matthewh",
     "email": "hello@matthewh.in",
     "url": "http://matthewh.in/"
-  },
+  }, {
+    "name": "Sam Gluck",
+    "email": "sdgluck@gmail.com",
+    "url": "http://twitter.com/sdgluck"
+  }],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "private": false,
   "main": "index.js",
-  "homepage": "https://github.com/MatthewNPM/is-node",
+  "homepage": "https://github.com/sdgluck/is-node-fn",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MatthewNPM/is-node"
+    "url": "https://github.com/sdgluck/is-node-fn"
   },
   "bugs": {
-    "url": "https://github.com/MatthewNPM/is-node/issues"
+    "url": "https://github.com/sdgluck/is-node-fn/issues"
   },
   "engines": {
     "node": ">= 0.10"
@@ -27,7 +31,8 @@
     "is",
     "node",
     "detect",
-    "process"
+    "process",
+    "function"
   ],
   "files": [
     "examples/",

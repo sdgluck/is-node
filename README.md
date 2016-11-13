@@ -2,13 +2,13 @@
 Detects if the current process is a node application or not.
 
 ## Install
-`$ npm install is-node`
+`$ npm install is-node-fn`
 
 ## Usage
 ```javascript
-var isNode = require('is-node');
+var isNode = require('is-node-fn');
 
-if (isNode) {
+if (isNode()) {
   console.log("Hey, I'm a node process!");
 }
 ```
